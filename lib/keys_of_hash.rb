@@ -8,7 +8,9 @@ class Hash
     #     end #end if 
     #   end #end hash.each 
     # end #end arguments.each 
-    arr << arguments
+    # arr << arguments
+    self.each do |key, value| 
+    end 
     arr
   end # end method name
 end #end class
