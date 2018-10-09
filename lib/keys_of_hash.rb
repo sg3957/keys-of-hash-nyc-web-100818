@@ -1,7 +1,7 @@
 class Hash
-  def keys_of(*arguments)
-    arguments.map do |argument|
-      argument
+  def keys_of(hash, *arguments)
+    arguments.map do |key, value|
+      if hash.value == value 
     end
   end
 end
