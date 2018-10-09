@@ -6,12 +6,12 @@ class Hash
        if value == argument 
       arr << key 
     
-  end
-end
-end
-end
+  end #end if 
+end #end hash.each 
+end #end arguments.each 
+end # end method name
 arr
-end
+end #end class
 
 
 # def number_of_greetings(num, *names)
