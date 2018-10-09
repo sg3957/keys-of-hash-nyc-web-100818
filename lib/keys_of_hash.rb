@@ -1,8 +1,8 @@
 class Hash
   def keys_of(hash, *arguments)
     hash.map do |key, value|
-      if *arguments.include?(value) 
-    end
+      *arguments.include?(value) 
+    
   end
 end
 end
