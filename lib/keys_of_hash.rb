@@ -5,6 +5,7 @@ class Hash
     end
   end
 end
+end
 
 
 # def number_of_greetings(num, *names)
