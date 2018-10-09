@@ -10,7 +10,7 @@ class Hash
     # end #end arguments.each 
     # arr << arguments
     self.each do |key, value| 
-      if arguments.include?(arguments)
+      if arguments.include?(value)
         arr << key
       end
     end 
