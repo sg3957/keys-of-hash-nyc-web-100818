@@ -1,8 +1,10 @@
 class Hash
   def keys_of(hash, *arguments)
-    arguments.select do |key, value|
-     hash.include?(value)
-     
+    arr = []
+    arguments.each do |argument|
+      hash.each do |key, value|
+       if value == argument 
+      arr << key 
     
   end
 end
