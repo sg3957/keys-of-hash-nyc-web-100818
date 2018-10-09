@@ -1,17 +1,15 @@
 class Hash
   def keys_of(hash, *arguments)
     arr = []
-    arguments.each do |argument|
-      hash.each do |key, value|
-       if value == argument 
-      arr << key 
-    
-  end #end if 
-end #end hash.each 
-end #end arguments.each 
-arr
-end # end method name
-
+    # arguments.each do |argument|
+    #   hash.each do |key, value|
+    #   if value == argument 
+    #       arr << key 
+    #     end #end if 
+    #   end #end hash.each 
+    # end #end arguments.each 
+      arr
+  end # end method name
 end #end class
 
 
