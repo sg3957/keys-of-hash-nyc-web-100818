@@ -8,7 +8,7 @@ class Hash
     #     end #end if 
     #   end #end hash.each 
     # end #end arguments.each 
-    puts self
+    arr << arguments
     arr
   end # end method name
 end #end class
