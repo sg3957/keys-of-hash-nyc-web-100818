@@ -9,8 +9,9 @@ class Hash
   end #end if 
 end #end hash.each 
 end #end arguments.each 
-end # end method name
 arr
+end # end method name
+
 end #end class
 
 
